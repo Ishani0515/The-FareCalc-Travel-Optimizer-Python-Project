@@ -23,7 +23,7 @@ def calculate_fare(km,vehicle_type,hour):
 try:
     distance=int(input("Enter distance(km): "))
     vehicle_type=input("Enter vehicle type(Economy,Preminum,SUV):")
-    hour=int(input("Enter hour(0-23: "))
+    hour=int(input("Enter hour(0-23): "))
     
     result = calculate_fare(distance,vehicle_type,hour)
     
